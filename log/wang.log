@@ -1,0 +1,205 @@
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-265} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-266} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-267} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-268} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-269} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [王麻子]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 5.9908 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [4, 王麻子, 123456789]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.8585 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.7586 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-270} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-271} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-272} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-273} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-274} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 8.5099 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-275} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-276} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-277} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-278} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-279} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 12.7326 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.0096 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [wang]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.6826 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} closed
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004} closed
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003} closed
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002} closed
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001} closed
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006,procId-280} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [wang]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 0.8122 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50003} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [wang]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 0.8844 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50004} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50004} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50004} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 0.9955 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50005} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50005} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50005} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50005} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} executed. 0.7296 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50006} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50006} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50006} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50006} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-281} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-282} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-283} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-284} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-285} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.3228 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [5, root, 123456]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-288} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-289} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-290} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-291} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-292} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.2905 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd, perms]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [5, root, 123456, user:add]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [李四]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.1854 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [id, name, pwd, perms]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [2, 李四, 456789, user:update]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-293} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-294} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-295} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-296} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-297} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.8229 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd, perms]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [5, root, 123456, user:add]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10001,procId-298} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10002,procId-299} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10003,procId-300} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10004,procId-301} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005,procId-302} connected
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [root]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 9.3229 millis. select * from mybatis.user where name = ?;
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd, perms]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [5, root, 123456, user:add]
+[DEBUG][20-09-24][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-24][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-24][druid.sql.Connection]{conn-10005} pool-recycle
